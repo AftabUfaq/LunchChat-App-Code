@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "LunchMeetApp",
+    "slug": "LunchMeetApp",
+    "platforms": ["ios", "android"],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "notification": {
+      "iosDisplayInForeground": true
+    },
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.wubruno.LunchMeetApp"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": ["ACCESS_BACKGROUND_LOCATION", "ACCESS_FINE_LOCATION"],
+      "package": "com.wubruno.LunchMeetApp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a09dfc48-279d-4b27-983d-c76d8e594a7f"
+      }
+    }
+  }
+}
